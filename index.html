@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dress Mera - Virtual Outfit Preview</title>
+  <meta name="description" content="Try outfits online with Dress Mera. Drag, zoom, and preview outfits virtually with face detection.">
+  <meta name="keywords" content="virtual dressing room, try clothes online, outfit preview, Dress Mera">
+  <meta property="og:title" content="Dress Mera - Virtual Outfit Preview">
+  <meta property="og:description" content="Try outfits virtually with drag, zoom, and face detection.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>👗 Dress Mera</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="how-to-use.html">How to Use</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="disclaimer.html">Disclaimer</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="upload-section">
+      <h2>Upload Your Photo</h2>
+      <input type="file" id="upload" accept="image/*">
+      <canvas id="canvas"></canvas>
+    </section>
+
+    <section class="outfits">
+      <h2>Select Outfit</h2>
+      <img src="assets/outfits/outfit1.png" class="outfit" draggable="true">
+      <img src="assets/outfits/outfit2.png" class="outfit" draggable="true">
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Dress Mera. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
