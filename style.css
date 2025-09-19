@@ -26,10 +26,15 @@ canvas {
   display: block;
   margin-top: 10px;
   border: 1px solid #ccc;
+  max-width: 100%;
 }
 footer {
   text-align: center;
   padding: 10px;
   background: #222;
   color: white;
+}
+.outfit {
+  margin: 10px;
+  cursor: pointer;
 }
